@@ -1,0 +1,31 @@
+{
+	"name" : "elasticsearch-non-nullable",
+	"description" : "A plugin for the Elasticsearch JavaScript client that enforces non-nullable fields when indexing",
+	"keywords" : ["Elasticsearch", "client", "non-nullable", "nullable", "node", "node.js"],
+	"author" : "Ross Johnson <ross@mazira.com>",
+	"version" : "0.0.2",
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/mazira/elasticsearch-non-nullable"
+	},
+	"main" : "lib/index.js",
+	"scripts" : {
+		"test" : "mocha --reporter spec"
+	},
+	"dependencies" : {
+		"bluebird" : "1.2.x"
+	},
+	"peerDependencies" : {
+		"elasticsearch" : "2.1.x"
+	},
+	"devDependencies" : {
+		"mocha" : "1.18.x",
+		"chai" : "1.9.x",
+		"chai-as-promised" : "4.1.x",
+		"elasticsearch" : "2.1.x"
+	},
+	"license" : "MIT",
+	"engines" : {
+		"node" : ">= 0.8.0"
+	}
+}
